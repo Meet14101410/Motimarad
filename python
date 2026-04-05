@@ -1,0 +1,16 @@
+def get_moti_marad_profile():
+    profile = {
+        "Name": "Moti Marad",
+        "Taluka": "Dhoraji",
+        "District": "Rajkot",
+        "State": "Gujarat",
+        "Pincode": 360410,
+        "Scale": "One of the most populous villages in the region"
+    }
+
+    print(f"--- Fact Sheet: {profile['Name']} ---")
+    for key, value in profile.items():
+        print(f"{key:12}: {value}")
+
+if __name__ == "__main__":
+    get_moti_marad_profile()
